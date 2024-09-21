@@ -6,4 +6,4 @@ gem "html-proofer"
 gem "json"
 gem "webrick", "~> 1.8"
 gem 'fiber-local', '~> 1.0.0'
-gem 'io-event', '= 1.5.1'
+gem 'io-event', '= 1.3.3'
