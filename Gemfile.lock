@@ -212,6 +212,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (>= 2.3.5)
+  ffi (~> 1.9, >= 1.9.10)
   html-proofer
   jekyll-github-metadata (>= 2.15)
   jekyll-include-cache
