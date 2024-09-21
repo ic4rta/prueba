@@ -22,7 +22,7 @@ grand_parent: Criptografia
 2. Por cada caracter del texto a hashear se realiza una operacion de desplazamiento y suma sobre el valor actual de hash
 3. Multiplica el hash actual por 33 y luego suma el valor ASCII del caracter actual del texto
 
-La multplicacion por 33 y la suma del hash actual se sustitute por ```(hash  << 5) + hash```, ambas operaciones son lo mismo
+La multplicacion por 33 y la suma del hash actual se sustitute por ```(hash  << 5) + hash```, ambas operaciones son lo mismo.
 
 ### ¿Por que 33 y 5381?
 
