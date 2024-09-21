@@ -7,3 +7,4 @@ gem "json"
 gem "webrick", "~> 1.8"
 gem 'fiber-local', '~> 1.0.0'
 gem 'io-event', '= 1.3.3'
+gem 'async', '= 2.5.1'
