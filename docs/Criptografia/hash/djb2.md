@@ -36,7 +36,7 @@ Otra razon es por la velocidad de multiplicar por 33 que es equivalente a ```has
 
 Pero para entender un poco mas hay que descomponer 33. El numero 33 se puede escribir como ```32 + 1```, simplemente por que una propiedad basica de la aritmetica es que cualquier numero puede desomponerse en la suma de dos numeros, por lo tanto multiplicar cualquier numero por 33 es lo mismo que multiplicar por 32 y luego sumarle el mismo numero una vez. Y eso exactamente lo mismo que ```(hash  << 5) + hash``` desplazar un numero *N* posiciones a la izquierda es igual a multiplicar ese numero por *2^n*, y para acompletar a 33 en djb2 se suma el valor original del hash, lo cual lo hace mas eficiente, haciendo que los numeros 33 y 5381 sean practicamente perfectos.
 
-Aun que esta es una explicacion "razonable", en realidad aun no se explica adecuadamente la razon de esos numeros
+Aun que esta es una explicacion "razonable", en realidad aun no se explica adecuadamente la razon de esos numeros.
 
 ## Implementacion
 
