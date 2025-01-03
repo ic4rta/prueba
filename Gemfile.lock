@@ -196,7 +196,6 @@ DEPENDENCIES
   jekyll-include-cache
   json
   just-the-docs!
-  sass-embedded (= 1.70.0)
   webrick (~> 1.8)
 
 BUNDLED WITH
